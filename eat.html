@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>今天吃什么呢？</title>
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        box-sizing: border-box;
+      }
+      html {
+        height: 100%;
+        color: #fff;
+        background: #fff url(./img/41654416797_.pic.jpg) no-repeat center/100%;
+        overflow: hidden;
+      }
+      body {
+        height: 100%;
+        padding: 60px;
+        user-select: none;
+        overflow: hidden;
+      }
+      #menuList {
+        height: 220px;
+        padding: 16px 16px 0;
+        margin-bottom: 16px;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, .5);
+        border-radius: 6px;
+      }
+      #menuList li {
+        display: inline-block;
+        padding: 8px;
+        background-color: #6d8da1;
+        margin: 0 16px 16px 0;
+        border-radius: 4px;
+        cursor: pointer;
+        color: #fff;
+      }
+      .today {
+        width: 500px;
+        height: 300px;
+        padding: 24px;
+        margin: 56px auto 0;
+        background-color: rgba(212, 198, 176, .8);
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #80332e;
+      }
+      #createMenu {
+        display: inline-block;
+        padding: 8px;
+        margin: 0 auto 36px;
+        background-color: #3577cb;
+        border-radius: 4px;
+        cursor: pointer;
+        color: #fff;
+      }
+      .eat {
+        height: 54px;
+      }
+      .eat p {
+        margin-bottom: 16px;
+      }
+      .eat p span {
+        display: inline-block;
+        padding: 8px;
+        background-color: #6d8da1;
+        margin: 0 16px 16px 0;
+        border-radius: 4px;
+        cursor: pointer;
+        color: #fff;
+      }
+  
+    </style>
+  </head>
+
+  <body>
+    <div id="container"></div>
+  </body>
+  <script type="text/javascript" src="js/menu.js"></script>
+  <script type="text/javascript" src="js/jquery-1.10.1.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <div id="menuList"></div>
+  <div class="today">
+    <div id='createMenu'>生成今日菜单</div>
+    <div class="eat">
+      <p id='lunch'>今日午餐：</p>
+      <p id='dinner'>今日晚餐：</p>
+    </div>
+  </div>
+  <script>
+  </script>
+</html>
