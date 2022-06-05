@@ -112,19 +112,7 @@ var Menu = [
       
     },
     {
-      name: "青椒肉丝3",
-      mainDosing: [GreenPepper, ShreddedMeat], // 主料
-      otherDosing: [Shallot, Ginger, Garlic], // 辅料
-      
-    },
-    {
       name: "鸡腿蒸南瓜",
-      mainDosing: [GreenPepper, ShreddedMeat], // 主料
-      otherDosing: [Shallot, Ginger, Garlic], // 辅料
-      
-    },
-    {
-      name: "青椒肉丝5",
       mainDosing: [GreenPepper, ShreddedMeat], // 主料
       otherDosing: [Shallot, Ginger, Garlic], // 辅料
       
