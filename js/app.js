@@ -5,7 +5,7 @@ $(function () {
     var menuList = $('#menuList');
     var menuContent = '';
     Menu.forEach((item, index) => {
-      menuContent += '<li ' + 'title= ' + nameConcat(item) + '>' + item.name + '</li>'
+      menuContent += '<li ' + 'title= ' + nameConcat(item) + ' data-food-data= ' + JSON.stringify(item) + '>' + item.name + '</li>'
     });
     menuList.append('<ul>' + menuContent + '</ul>')
   }

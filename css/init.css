@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+  ::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.2);
+    visibility: hidden;
+    border-radius: 5px;
+    transition: background-color 200ms ease-in-out 0s;
+  }
+  ::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+    background-color: transparent;
+  }
+  .hide::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+  :active::-webkit-scrollbar-thumb,
+  :hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+  }
+
+  .textOverflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
